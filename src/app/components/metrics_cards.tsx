@@ -6,7 +6,7 @@ export const MetricsCard = () => {
     const cardDesign = `shadow-xl w-[250px] h-[170px] py-[10px] rounded-[20px] `;
     const line = `w-full h-[1px] bg-gray-300 mt-[0px] mb-[20px]`
     return(
-        <section className="flex gap-5 mt-[50px] ml-[20px]">
+        <section className="flex gap-5 mt-[50px] ml-[40px]">
             <div className={`flex flex-col ${cardDesign}`}>
                 <div className={`flex justify-between px-[20px]`}>
                 <div className="flex flex-col gap-0">
