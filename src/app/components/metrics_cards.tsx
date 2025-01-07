@@ -32,11 +32,11 @@ export const MetricsCard = () => {
                     <h1 className="font-bold text-[0.8rem]">Response Rate</h1>
                 </div>
             </div>
-            <div className={`flex flex-col ${cardDesign}`}>
+            <div className={`flex flex-col ${cardDesign} relative`}>
                 <div className={`flex justify-between px-[20px]`}>
                 <div className="flex flex-col gap-0">
                 <span className="text-gray-500 text-sm">NEW LEADS</span>
-                <div className="flex justify-between">
+                <div className="flex justify-between w-full">
                 <div className="flex flex-col">
                 <h1 className="font-bold text-[3rem]">21</h1>
                 <div className="flex flex-col">
@@ -44,19 +44,20 @@ export const MetricsCard = () => {
                     <span className="text-[0.7rem] pl-[20px]"><span className="font-bold">72</span> This Week</span>
                 </div>
                 </div>
-                <div className="flex px-[20px]">
+                <div className="flex px-[20px] absolute right-0">
                     <div className="bg-[#602BF8] w-full h-fit rounded-[15px] border-none circle p-1">
-                        <div className="bg-white w-full h-[100px] rounded-[15px] relative circle">
+                        <div className="bg-white w-[80px] h-[100px] rounded-[15px] relative circle ">
                             <div className="absolute right-[-50px] top-[-65]">
                             <Image src={Union} alt="union" className="relative" />
-                            <p className="absolute top-[30px] right-[40px] text-[0.7rem]">75%</p>
+                            <p className="absolute top-0 right-0 text-[0.7rem]">75%</p>
+                            <p className="">Goal</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 </div>
                 </div>
-                <div>
+                <div className="flex clex-col">
                     <MessagesSquare />
                 </div>
                 </div>

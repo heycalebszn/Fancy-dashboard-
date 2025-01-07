@@ -18,7 +18,7 @@ export const Navbar = () => {
     ]
     return(
         <nav className="flex justify-between items-center">
-            <Image src={Logo} alt="dashboard logo" className="w-[100px]" />
+            <Image src={Logo} alt="dashboard logo" className="w-[120px]" />
 
             <div className="flex items-center">
             <ul className="flex gap-6">
