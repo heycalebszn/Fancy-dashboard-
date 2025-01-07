@@ -6,7 +6,7 @@ export const MetricsCard = () => {
     const cardDesign = `shadow-xl w-[250px] h-[170px] py-[10px] rounded-[20px] `;
     const line = `w-full h-[1px] bg-gray-300 mt-[0px] mb-[20px]`
     return(
-        <section className="flex gap-5 mt-[50px]">
+        <section className="flex gap-5 mt-[50px] ml-[20px]">
             <div className={`flex flex-col ${cardDesign}`}>
                 <div className={`flex justify-between px-[20px]`}>
                 <div className="flex flex-col gap-0">
@@ -21,7 +21,7 @@ export const MetricsCard = () => {
                 <span className={`${line}`}></span>
                 <div className="flex flex-col px-[20px]">
                     <div className="bg-purple-200 w-full h-fit rounded-[15px] border-none">
-                        <div className="bg-purple-600 w-[150px] h-[8px] rounded-[15px] relative">
+                        <div className="bg-[#602BF8] w-[150px] h-[8px] rounded-[15px] relative">
                         <Image src={Union} alt="union" className="absolute right-0 top-0" />
                         </div>
                     </div>
