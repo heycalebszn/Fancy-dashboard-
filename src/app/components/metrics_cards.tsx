@@ -36,18 +36,15 @@ export const MetricsCard = () => {
                 <div className={`flex justify-between px-[20px]`}>
                 <div className="flex flex-col gap-0">
                 <span className="text-gray-500 text-sm">NEW LEADS</span>
+                <div className="flex justify-between">
+                <div className="flex flex-col">
                 <h1 className="font-bold text-[3rem]">21</h1>
                 <div className="flex flex-col">
                     <p className="text-[0.8rem]"><span className="font-bold">60%</span> Daily Goal</p>
                     <span className="text-[0.7rem] pl-[20px]"><span className="font-bold">72</span> This Week</span>
                 </div>
                 </div>
-                <div>
-                    <MessagesSquare />
-                </div>
-                </div>
-
-                <div className="flex flex-col px-[20px]">
+                <div className="flex px-[20px]">
                     <div className="bg-[#602BF8] w-full h-fit rounded-[15px] border-none circle p-1">
                         <div className="bg-white w-full h-[100px] rounded-[15px] relative circle">
                             <div className="absolute right-[-50px] top-[-65]">
@@ -56,6 +53,12 @@ export const MetricsCard = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                </div>
+                </div>
+                <div>
+                    <MessagesSquare />
+                </div>
                 </div>
             </div>
             <div className={`flex flex-col ${cardDesign}`}>
