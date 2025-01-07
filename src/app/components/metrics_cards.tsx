@@ -1,5 +1,6 @@
 import { MessagesSquare } from "lucide-react"
 import Image from "next/image";
+import { Union } from "../assets";
 
 export const MetricsCard = () => {
     const cardDesign = `shadow-xl w-[250px] h-[170px] py-[10px] rounded-[20px] `;
@@ -21,7 +22,7 @@ export const MetricsCard = () => {
                 <div className="flex flex-col px-[20px]">
                     <div className="bg-purple-200 w-full h-fit rounded-[15px] border-none">
                         <div className="bg-purple-600 w-[150px] h-[8px] rounded-[15px] relative">
-                        <Image src={Union} className="absolute right-0 top-0" />
+                        <Image src={Union} alt="union" className="absolute right-0 top-0" />
                         </div>
                     </div>
                     <h1 className="font-bold text-[0.8rem]">Response Rate</h1>
