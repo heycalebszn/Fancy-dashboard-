@@ -20,9 +20,10 @@ export const MetricsCard = () => {
 
                 <span className={`${line}`}></span>
                 <div className="flex flex-col px-[20px]">
-                    <div className="bg-purple-200 w-full h-fit rounded-[15px] border-none">
+                    <div className="bg-purple-200 w-full h-fit rounded-[15px] border-none relative">
                         <div className="bg-[#602BF8] w-[150px] h-[8px] rounded-[15px] relative">
-                        <Image src={Union} alt="union" className="absolute right-0 top-0" />
+                        <Image src={Union} alt="union" className="absolute right-[-50px] top-[-70px]" />
+                        <span></span>
                         </div>
                     </div>
                     <h1 className="font-bold text-[0.8rem]">Response Rate</h1>

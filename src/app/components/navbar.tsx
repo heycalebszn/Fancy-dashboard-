@@ -20,13 +20,13 @@ export const Navbar = () => {
         <nav className="flex justify-between items-center">
             <Image src={Logo} alt="dashboard logo" className="w-[100px]" />
 
-            <div className="flex gap-6">
-            <ul className="flex gap-5">
+            <div className="flex gap-[20px]">
+            <ul className="flex gap-6">
                 {navLinks.map((navLink, index) => (
-                    <li key={index}><a className="cursor-pointer">{navLink.link}</a></li>
+                    <li key={index}><a className="cursor-pointer font-md">{navLink.link}</a></li>
                 ))}
             </ul>
-            <Menu />
+            <Menu className="font-bold w-[37px]" />
             </div>
         </nav>
     )
