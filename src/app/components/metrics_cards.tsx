@@ -24,7 +24,7 @@ export const MetricsCard = () => {
                         <div className="bg-[#602BF8] w-[150px] h-[8px] rounded-[15px] relative">
                             <div className="absolute right-[-50px] top-[-65]">
                             <Image src={Union} alt="union" className="relative" />
-                            <p className="absolute top-[35px] right-[45px] text-[0.7rem]">75%</p>
+                            <p className="absolute top-[30px] right-[40px] text-[0.7rem]">75%</p>
                             </div>
                         <span></span>
                         </div>
@@ -35,8 +35,12 @@ export const MetricsCard = () => {
             <div className={`flex flex-col ${cardDesign}`}>
                 <div className={`flex justify-between px-[20px]`}>
                 <div className="flex flex-col gap-0">
-                <span className="text-gray-500 text-sm">NEW MESSAGES</span>
-                <h1 className="font-bold text-[3rem]">85</h1>
+                <span className="text-gray-500 text-sm">NEW LEADS</span>
+                <h1 className="font-bold text-[3rem]">21</h1>
+                <div className="flex flex-col">
+                    <p className="text-[0.7rem]"><span className="font-bold">60%</span> Daily Goal</p>
+                    <span className="text-[0.7rem]"><span className="font-bold">72</span> This Week</span>
+                </div>
                 </div>
                 <div>
                     <MessagesSquare />
@@ -49,7 +53,7 @@ export const MetricsCard = () => {
                         <div className="bg-[#602BF8] w-[150px] h-[8px] rounded-[15px] relative">
                             <div className="absolute right-[-50px] top-[-65]">
                             <Image src={Union} alt="union" className="relative" />
-                            <p className="absolute top-[35px] right-[45px] text-[0.7rem]">75%</p>
+                            <p className="absolute top-[30px] right-[40px] text-[0.7rem]">75%</p>
                             </div>
                         <span></span>
                         </div>
@@ -60,8 +64,8 @@ export const MetricsCard = () => {
             <div className={`flex flex-col ${cardDesign}`}>
                 <div className={`flex justify-between px-[20px]`}>
                 <div className="flex flex-col gap-0">
-                <span className="text-gray-500 text-sm">NEW MESSAGES</span>
-                <h1 className="font-bold text-[3rem]">85</h1>
+                <span className="text-gray-500 text-sm">ACHIEVEMENTS</span>
+                <h1 className="font-bold text-[3rem]">95</h1>
                 </div>
                 <div>
                     <MessagesSquare />
@@ -71,10 +75,10 @@ export const MetricsCard = () => {
                 <span className={`${line}`}></span>
                 <div className="flex flex-col px-[20px]">
                     <div className="bg-purple-200 w-full h-fit rounded-[15px] border-none">
-                        <div className="bg-[#602BF8] w-[150px] h-[8px] rounded-[15px] relative">
+                        <div className="bg-[#602BF8] w-[180px] h-[8px] rounded-[15px] relative">
                             <div className="absolute right-[-50px] top-[-65]">
                             <Image src={Union} alt="union" className="relative" />
-                            <p className="absolute top-[35px] right-[45px] text-[0.7rem]">75%</p>
+                            <p className="absolute top-[30px] right-[40px] text-[0.7rem]">85%</p>
                             </div>
                         <span></span>
                         </div>

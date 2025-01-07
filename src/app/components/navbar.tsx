@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import { Logo } from "../assets/index"
-import { Menu } from "lucide-react"
+import { TbMenu3 } from "react-icons/tb"
 
 export const Navbar = () => {
     const navLinks = [
@@ -20,13 +20,13 @@ export const Navbar = () => {
         <nav className="flex justify-between items-center">
             <Image src={Logo} alt="dashboard logo" className="w-[100px]" />
 
-            <div className="flex gap-[20px]">
+            <div className="flex items-center">
             <ul className="flex gap-6">
                 {navLinks.map((navLink, index) => (
                     <li key={index}><a className="cursor-pointer font-md">{navLink.link}</a></li>
                 ))}
             </ul>
-            <Menu className="font-bold w-[37px]" />
+            <TbMenu3 className="font-bold text-[30px] ml-[40px]" />
             </div>
         </nav>
     )

@@ -6,7 +6,7 @@ import { Chart } from "@/app/components/chart";
 
 const Dashboard = () => {
     return(
-        <section className="bg-white rounded-[20px] p-5 shadow-xl relative w-[900px]">
+        <section className="bg-white rounded-[20px] p-10 shadow-xl relative w-[900px]">
             <Navbar />
             <Sidebar />
             <MetricsCard />
