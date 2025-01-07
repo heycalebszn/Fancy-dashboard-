@@ -7,12 +7,12 @@ import { CgMediaPodcast } from "react-icons/cg";
 export const Sidebar = () => {
     return(
         <section className="absolute left-[-30px] top-[70px] bg-[#602BF8] rounded-full flex flex-col w-[62px] h-[269px] py-[15px] px-3 items-center justify-center m-auto gap-4">
-            <TbMailOpened className="text-[20px] text-white" />
-            <LiaQuestionCircle className="text-[20px] text-white" />
-            <TbFileInvoice className="text-[20px] text-white" />
-            <CgMediaPodcast className="text-[20px] text-white" />
-            <GrAppsRounded className="text-[20px] text-white" />
-            <RxQuestionMarkCircled className="text-[20px] text-white" />
+            <TbMailOpened className="text-[22px] text-white bg-purple-900 p-[10px] rounded-full" />
+            <LiaQuestionCircle className="text-[22px] text-white" />
+            <TbFileInvoice className="text-[22px] text-white" />
+            <CgMediaPodcast className="text-[22px] text-white" />
+            <GrAppsRounded className="text-[22px] text-white" />
+            <RxQuestionMarkCircled className="text-[22px] text-white" />
         </section>
     )
 }

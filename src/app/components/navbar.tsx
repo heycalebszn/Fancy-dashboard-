@@ -23,7 +23,7 @@ export const Navbar = () => {
             <div className="flex items-center">
             <ul className="flex gap-6">
                 {navLinks.map((navLink, index) => (
-                    <li key={index}><a className="cursor-pointer font-md">{navLink.link}</a></li>
+                    <li key={index}><a className="cursor-pointer font-md text-[0.9rem]">{navLink.link}</a></li>
                 ))}
             </ul>
             <TbMenu3 className="font-bold text-[30px] ml-[40px]" />
