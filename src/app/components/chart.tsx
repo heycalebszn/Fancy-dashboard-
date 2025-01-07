@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export const Chart = () =>{
     return(
-    <section>
-        <Image alt="chart" src={ChartImg} />
+    <section className="ml-[40px] mt-[20px]">
+        <Image alt="chart" src={ChartImg} className="w-full" />
     </section>
     )
 }

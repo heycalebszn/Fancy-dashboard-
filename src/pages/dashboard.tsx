@@ -2,14 +2,15 @@
 import { MetricsCard } from "@/app/components/metrics_cards";
 import { Navbar } from "@/app/components/navbar";
 import { Sidebar } from "@/app/components/sidebar";
+import { Chart } from "@/app/components/chart";
 
 const Dashboard = () => {
     return(
-        <section className="bg-white rounded-md p-5 shadow-xl relative w-[1000px]">
+        <section className="bg-white rounded-[20px] p-5 shadow-xl relative w-[900px]">
             <Navbar />
             <Sidebar />
             <MetricsCard />
-            
+            <Chart />
         </section>
     )
 }
