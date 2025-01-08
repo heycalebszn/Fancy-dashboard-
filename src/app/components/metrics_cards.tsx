@@ -1,6 +1,9 @@
-import { MessagesSquare } from "lucide-react"
 import Image from "next/image";
 import { Union } from "../assets";
+import { CircleMetrics } from "./circle_metrics";
+import { GrAppsRounded } from "react-icons/gr";
+import { CgMediaPodcast } from "react-icons/cg";
+import { TbMessageFilled } from "react-icons/tb";
 
 export const MetricsCard = () => {
     const cardDesign = `shadow-xl w-[250px] h-[170px] py-[10px] rounded-[20px] `;
@@ -14,7 +17,7 @@ export const MetricsCard = () => {
                 <h1 className="font-bold text-[3rem]">85</h1>
                 </div>
                 <div>
-                    <MessagesSquare />
+                    <TbMessageFilled className="text-[30px]" />
                 </div>
                 </div>
 
@@ -44,21 +47,13 @@ export const MetricsCard = () => {
                     <span className="text-[0.7rem] pl-[20px]"><span className="font-bold">72</span> This Week</span>
                 </div>
                 </div>
-                <div className="flex px-[20px] absolute right-0 bottom-0">
-                    <div className="bg-[#602BF8] w-full h-fit rounded-[15px] border-none circle p-2">
-                        <div className="bg-white w-[80px] h-[100px] rounded-[15px] relative circle m-auto items-center">
-                            <div className="absolute right-0">
-                            <Image src={Union} alt="union" className="relative" />
-                            <p className="absolute text-[0.7rem]">75%</p>
-                            </div> 
-                            <p className="text-center m-auto">Goal</p>
-                        </div>
-                    </div>
+                <div className="flex px-[20px] absolute -right-[10px] top-[40px]">
+                    <CircleMetrics percentage={62} />
                 </div>
                 </div>
                 </div>
                 <div className="flex clex-col">
-                    <MessagesSquare />
+                    <GrAppsRounded className="text-[30px]" />
                 </div>
                 </div>
             </div>
@@ -69,7 +64,7 @@ export const MetricsCard = () => {
                 <h1 className="font-bold text-[3rem]">95</h1>
                 </div>
                 <div>
-                    <MessagesSquare />
+                    <CgMediaPodcast className="text-[30px]"  />
                 </div>
                 </div>
 
