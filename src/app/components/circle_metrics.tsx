@@ -10,7 +10,7 @@ export const CircleMetrics = ({percentage}: {percentage: number}) => {
         <div className="flex justify-center items-center">
             <svg
             className="120 relative"
-            height="120"
+            height="100"
             viewBox="0 0 120 120"
             >
                 <circle 
@@ -38,7 +38,7 @@ export const CircleMetrics = ({percentage}: {percentage: number}) => {
                 <p className="text-sm">Goal</p>
             </div>
 
-            <div className="absolute right-[-10px] top-0">
+            <div className="absolute right-[-26px] top-0">
                 <Image src={Union} alt="union" className="relative" />
                 <p className="absolute top-[30px] right-[40px] text-[0.7rem]">62%</p>
             </div>

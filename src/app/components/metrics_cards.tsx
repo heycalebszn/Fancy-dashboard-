@@ -17,7 +17,7 @@ export const MetricsCard = () => {
                 <h1 className="font-bold text-[3rem]">85</h1>
                 </div>
                 <div>
-                    <TbMessageFilled className="text-[30px]" />
+                    <TbMessageFilled className="text-[25px]" />
                 </div>
                 </div>
 
@@ -47,13 +47,13 @@ export const MetricsCard = () => {
                     <span className="text-[0.7rem] pl-[20px]"><span className="font-bold">72</span> This Week</span>
                 </div>
                 </div>
-                <div className="flex px-[20px] absolute -right-[10px] top-[40px]">
+                <div className="flex px-[20px] absolute -right-[5px] top-[40px]">
                     <CircleMetrics percentage={62} />
                 </div>
                 </div>
                 </div>
                 <div className="flex clex-col">
-                    <GrAppsRounded className="text-[30px]" />
+                    <GrAppsRounded className="text-[25px]" />
                 </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ export const MetricsCard = () => {
                 <h1 className="font-bold text-[3rem]">95</h1>
                 </div>
                 <div>
-                    <CgMediaPodcast className="text-[30px]"  />
+                    <CgMediaPodcast className="text-[25px]"  />
                 </div>
                 </div>
 
