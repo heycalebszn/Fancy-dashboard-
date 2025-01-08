@@ -44,14 +44,14 @@ export const MetricsCard = () => {
                     <span className="text-[0.7rem] pl-[20px]"><span className="font-bold">72</span> This Week</span>
                 </div>
                 </div>
-                <div className="flex px-[20px] absolute right-0">
-                    <div className="bg-[#602BF8] w-full h-fit rounded-[15px] border-none circle p-1">
-                        <div className="bg-white w-[80px] h-[100px] rounded-[15px] relative circle ">
-                            <div className="absolute right-[-50px] top-[-65]">
+                <div className="flex px-[20px] absolute right-0 bottom-0">
+                    <div className="bg-[#602BF8] w-full h-fit rounded-[15px] border-none circle p-2">
+                        <div className="bg-white w-[80px] h-[100px] rounded-[15px] relative circle m-auto items-center">
+                            <div className="absolute right-0">
                             <Image src={Union} alt="union" className="relative" />
-                            <p className="absolute top-0 right-0 text-[0.7rem]">75%</p>
-                            <p className="">Goal</p>
-                            </div>
+                            <p className="absolute text-[0.7rem]">75%</p>
+                            </div> 
+                            <p className="text-center m-auto">Goal</p>
                         </div>
                     </div>
                 </div>
