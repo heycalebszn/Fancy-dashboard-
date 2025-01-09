@@ -1,4 +1,4 @@
-import Dashboard from "../pages/dashboard"
+import Dashboard from "./components/dashboard"
 import "./globals.css"
 
 const Page = () => {

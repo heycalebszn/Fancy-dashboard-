@@ -21,7 +21,7 @@ export const Navbar = () => {
             <Image src={Logo} alt="dashboard logo" className="w-[120px]" />
 
             <div className="flex items-center">
-            <ul className="flex gap-6">
+            <ul className="flex gap-7">
                 {navLinks.map((navLink, index) => (
                     <li key={index}><a className="cursor-pointer font-md text-[0.9rem]">{navLink.link}</a></li>
                 ))}
